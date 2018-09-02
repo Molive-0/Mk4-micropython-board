@@ -42,7 +42,7 @@ typedef struct _machine_uart_obj_t {
 } machine_uart_obj_t;
 
 // TODO: figure out how to set this
-#define NUM_UARTS 3
+#define NUM_UARTS 4
 static UART_Handle uarts[NUM_UARTS];
 
 void machine_uart_teardown(void) {
